@@ -955,7 +955,7 @@ div.price div.pagelinks {
   }
 }
 div.price div.pagelinks a {
-  background-image: url("img/price_warranty_link.webp");
+  background-image: url("../img/price_warranty_link.webp");
   background-size: cover;
   width: 100%;
   display: block;
@@ -1006,7 +1006,7 @@ div.price div.pagelinks a span.more {
   }
 }
 div.price section.buildings {
-  background-image: url("img/bg_intro.webp");
+  background-image: url("../img/bg_intro.webp");
   background-size: cover;
   margin-top: 130px;
   padding: 54px 0;
