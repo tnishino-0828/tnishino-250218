@@ -390,6 +390,713 @@ a {
     padding: 25px 7.15% 198px;
   }
 }
+@media (min-width: 768px) {
+  div.price div.catch {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 228px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price div.catch {
+    gap: 40px;
+  }
+}
+@media (min-width: 768px) {
+  div.price div.catch div.appeal {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
+div.price div.catch div.appeal p {
+  font-size: 18px;
+  line-height: 38px;
+  letter-spacing: 2.5px;
+  color: #fff;
+  background-color: #393939;
+  display: inline-block;
+  padding: 0 4px;
+}
+@media (min-width: 768px) {
+  div.price div.catch div.appeal p {
+    font-size: 28px;
+    letter-spacing: 8.4px;
+    writing-mode: vertical-rl;
+    font-feature-settings: initial;
+    padding: 16px 8px;
+  }
+}
+div.price div.catch div.appeal p + p {
+  margin-top: 8px;
+}
+@media (min-width: 768px) {
+  div.price div.catch div.appeal p + p {
+    margin-top: initial;
+  }
+}
+div.price div.catch div.message {
+  font-size: 14px;
+  line-height: 30px;
+  line-height: 25px;
+  letter-spacing: 1.4px;
+  margin-top: 16px;
+}
+@media (min-width: 768px) {
+  div.price div.catch div.message {
+    margin-top: -156px;
+  }
+}
+div.price div.catch div.message br {
+  display: none;
+}
+@media (min-width: 768px) {
+  div.price div.catch div.message br {
+    display: block;
+  }
+}
+div.price img.mainimage {
+  width: 100%;
+  margin-top: 16px;
+}
+@media (min-width: 768px) {
+  div.price img.mainimage {
+    position: relative;
+    z-index: -1;
+    margin-top: -253px;
+  }
+}
+div.price section.commitment {
+  margin-top: 48px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment {
+    margin-top: 204px;
+  }
+}
+div.price section.commitment div.title {
+  text-align: center;
+}
+div.price section.commitment div.title hgroup {
+  display: inline-block;
+  text-align: center;
+  width: 580px;
+}
+div.price section.commitment div.title hgroup span.english {
+  line-height: 56px;
+  line-height: 28px;
+  letter-spacing: 0.7px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment div.title hgroup span.english {
+    line-height: 56px;
+    letter-spacing: 0.8px;
+  }
+}
+div.price section.commitment div.title hgroup h2 {
+  line-height: 35px;
+  font-weight: 600;
+  border-bottom: 1px solid #393939;
+  margin-top: 8px;
+  padding-bottom: 4px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment div.title hgroup h2 {
+    font-size: 28px;
+    letter-spacing: 5.6px;
+    margin-top: 24px;
+    padding-bottom: 8px;
+  }
+}
+div.price section.commitment ol.lists {
+  margin-top: 120px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists {
+    margin-top: 378px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists {
+    margin-top: 240px;
+  }
+}
+div.price section.commitment ol.lists li {
+  position: relative;
+  padding: 64px 16px 40px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li {
+    padding: 160px 32px 64px;
+  }
+}
+div.price section.commitment ol.lists li img.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: -1;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li img.background {
+    left: unset;
+    right: 0;
+    transform: translateY(50%);
+    width: 91.2vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li img.background {
+    width: 100%;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}
+div.price section.commitment ol.lists li span.number {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 540px;
+  line-height: 100px;
+  color: #393939;
+  position: absolute;
+  content: "";
+  top: -64px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li span.number {
+    font-size: 293px;
+    line-height: 293px;
+    top: -160px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li span.number {
+    font-size: 195px;
+  }
+}
+div.price section.commitment ol.lists li dl.text {
+  margin-top: 8px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li dl.text {
+    max-width: 650px;
+    padding-top: 216px;
+    padding-bottom: 76px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li dl.text {
+    width: fit-content;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: initial;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li dl.text {
+    padding-top: 162px;
+    padding-bottom: 226px;
+  }
+}
+div.price section.commitment ol.lists li dl.text dt {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 6px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li dl.text dt {
+    font-size: 28px;
+    line-height: 56px;
+    letter-spacing: 8.4px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li dl.text dt {
+    font-size: 24px;
+    line-height: 42px;
+  }
+}
+div.price section.commitment ol.lists li dl.text dt br {
+  display: none;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li dl.text dt br {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li dl.text dt br {
+    display: none;
+  }
+}
+div.price section.commitment ol.lists li dl.text dd {
+  font-size: 14px;
+  line-height: 30px;
+  line-height: 25px;
+  letter-spacing: 1.4px;
+  margin-top: 8px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li dl.text dd {
+    max-width: 480px;
+    margin-top: 56px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li dl.text dd {
+    max-width: unset;
+    margin-top: 32px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li dl.text dd {
+    margin-top: 32px;
+  }
+}
+div.price section.commitment ol.lists li:nth-child(1) img.illust01 {
+  position: absolute;
+  content: "";
+  width: 160px;
+  right: 16px;
+  top: -40px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(1) img.illust01 {
+    width: initial;
+    right: 188px;
+    top: -72px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li:nth-child(1) img.illust01 {
+    width: 320px;
+    right: 94px;
+    top: -56px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li:nth-child(1) img.illust01 {
+    width: 320px;
+    right: 72px;
+  }
+}
+div.price section.commitment ol.lists li:nth-child(1) img.photo01 {
+  margin-top: 24px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(1) img.photo01 {
+    position: absolute;
+    right: 0;
+    bottom: -128px;
+    margin-top: initial;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li:nth-child(1) img.photo01 {
+    position: relative;
+    right: unset;
+    left: 50%;
+    bottom: unset;
+    transform: translateX(-50%);
+    margin: 32px auto 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li:nth-child(1) img.photo01 {
+    bottom: -220px;
+  }
+}
+div.price section.commitment ol.lists li:nth-child(2) img.illust02 {
+  position: absolute;
+  content: "";
+  width: 140px;
+  right: 16px;
+  top: -40px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(2) img.illust02 {
+    width: initial;
+    right: unset;
+    left: 188px;
+    top: -112px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li:nth-child(2) img.illust02 {
+    width: 280px;
+    left: 94px;
+    top: -88px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li:nth-child(2) img.illust02 {
+    width: 280px;
+    left: 72px;
+  }
+}
+div.price section.commitment ol.lists li:nth-child(2) img.photo02 {
+  margin-top: 24px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(2) img.photo02 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li:nth-child(2) img.photo02 {
+    width: 300px;
+    position: relative;
+    top: unset;
+    left: 50%;
+    bottom: unset;
+    transform: translateX(-50%);
+    margin: 32px auto 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li:nth-child(2) img.photo02 {
+    width: 320px;
+    top: unset;
+    bottom: -210px;
+  }
+}
+div.price section.commitment ol.lists li:nth-child(3) img.illust03 {
+  position: absolute;
+  content: "";
+  width: 80px;
+  right: 16px;
+  top: -64px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(3) img.illust03 {
+    width: initial;
+    right: 18%;
+    top: -112px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li:nth-child(3) img.illust03 {
+    width: 160px;
+    right: 14%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li:nth-child(3) img.illust03 {
+    width: 160px;
+    right: 8%;
+  }
+}
+div.price section.commitment ol.lists li:nth-child(3) img.illust04 {
+  position: absolute;
+  content: "";
+  width: 60px;
+  right: 112px;
+  top: 0px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(3) img.illust04 {
+    width: initial;
+    right: 40%;
+    top: 48px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li:nth-child(3) img.illust04 {
+    width: 100px;
+    top: 32px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li:nth-child(3) img.illust04 {
+    width: 120px;
+    right: 30%;
+  }
+}
+div.price section.commitment ol.lists li:nth-child(3) img.photo03 {
+  margin-top: 24px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(3) img.photo03 {
+    position: absolute;
+    right: 0;
+    bottom: -128px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li:nth-child(3) img.photo03 {
+    position: relative;
+    right: unset;
+    left: 50%;
+    bottom: unset;
+    transform: translateX(-50%);
+    margin: 32px auto 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li:nth-child(3) img.photo03 {
+    bottom: -212px;
+  }
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(even) img.background {
+    left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li:nth-child(even) img.background {
+    left: 50%;
+  }
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(even) span.number {
+    right: 70px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li:nth-child(even) span.number {
+    right: 140px;
+  }
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(even) dl.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 0 0 auto;
+    padding-right: 85px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li:nth-child(even) dl.text {
+    margin: 0 auto;
+    padding-right: initial;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li:nth-child(even) dl.text {
+    max-width: 780px;
+    padding-right: 150px;
+  }
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(even) dl.text dt {
+    text-align: right;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li:nth-child(even) dl.text dt {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(odd) span.number {
+    left: 70px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li:nth-child(odd) span.number {
+    left: 140px;
+  }
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li:nth-child(odd) dl.text {
+    padding-left: 85px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li:nth-child(odd) dl.text {
+    padding-left: initial;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  div.price section.commitment ol.lists li:nth-child(odd) dl.text {
+    padding-left: 150px;
+  }
+}
+div.price section.commitment ol.lists li + li {
+  margin-top: 120px;
+}
+@media (min-width: 768px) {
+  div.price section.commitment ol.lists li + li {
+    margin-top: 443px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.commitment ol.lists li + li {
+    margin-top: 240px;
+  }
+}
+div.price div.pagelinks {
+  margin-top: 64px;
+}
+@media (min-width: 768px) {
+  div.price div.pagelinks {
+    margin-top: 400px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price div.pagelinks {
+    margin-top: 192px;
+  }
+}
+div.price div.pagelinks a {
+  background-image: url("img/price_warranty_link.webp");
+  background-size: cover;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  text-align: center;
+  padding: 24px 8px;
+}
+@media (min-width: 768px) {
+  div.price div.pagelinks a {
+    width: 640px;
+    margin: 0 auto;
+    padding: 32px 16px;
+  }
+}
+div.price div.pagelinks a div.title {
+  font-size: 16px;
+  line-height: 40px;
+  line-height: 20px;
+  letter-spacing: 3.5px;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  div.price div.pagelinks a div.title {
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 7.2px;
+  }
+}
+@media (min-width: 768px) {
+  div.price div.pagelinks a div.title br {
+    display: none;
+  }
+}
+div.price div.pagelinks a span.more {
+  font-size: 12px;
+  line-height: 36px;
+  line-height: 18px;
+  color: #393939;
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 16px;
+  padding: 6px 16px;
+}
+@media (min-width: 768px) {
+  div.price div.pagelinks a span.more {
+    padding: 6px 32px;
+  }
+}
+div.price section.buildings {
+  background-image: url("img/bg_intro.webp");
+  background-size: cover;
+  margin-top: 130px;
+  padding: 54px 0;
+}
+@media (min-width: 768px) {
+  div.price section.buildings {
+    margin-top: 260px;
+    padding: 108px 118px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.buildings {
+    margin-top: 195px;
+    padding: 80px;
+  }
+}
+div.price section.buildings div.container h2 {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  div.price section.buildings div.container h2 {
+    font-size: 30px;
+    line-height: 55px;
+    letter-spacing: 9px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.buildings div.container h2 {
+    font-size: 25px;
+  }
+}
+div.price section.buildings div.container div.lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  div.price section.buildings div.container div.lists {
+    display: flex;
+    margin-top: 64px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.buildings div.container div.lists {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 52px;
+  }
+}
+div.price section.buildings div.container div.lists div.item {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 2;
+  gap: 0;
+}
+@media (min-width: 768px) {
+  div.price section.buildings div.container div.lists div.item {
+    flex: 1;
+  }
+}
+div.price section.buildings div.container div.lists div.item div.image a img.image {
+  border-radius: 10px;
+  width: 100%;
+}
+div.price section.buildings div.container div.lists div.item div.name {
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 4.2px;
+  color: #fff;
+  text-align: center;
+  margin-top: 16px;
+}
+@media (min-width: 768px) {
+  div.price section.buildings div.container div.lists div.item div.name {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 5.4px;
+    margin-top: 32px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.price section.buildings div.container div.lists div.item div.name {
+    margin-top: 16px;
+  }
+}
+
 #footer .footerbtm {
   background: #393939;
   padding: 20px 15px;
